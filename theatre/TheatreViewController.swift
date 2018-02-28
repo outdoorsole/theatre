@@ -20,6 +20,7 @@ class TheatreViewController: UIViewController, UITextFieldDelegate {
         
         if theater.name != nil {
             welcomeLabel.text = "Welcome, \(theater.name!)!"
+            ticketCostLabel.text = theater.promoCode
         }
     }
     
