@@ -9,7 +9,7 @@
 import Foundation
 
 class Theater {
-    var name = ""
+    var name: String?
 }
 
 var theater = Theater()
