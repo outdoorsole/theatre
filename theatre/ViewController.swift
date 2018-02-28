@@ -20,6 +20,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         print("textFieldShouldReturn was called")
         textField.resignFirstResponder()
         
+        theater.name = textField.text!
+        
         return true
     }
 
