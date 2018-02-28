@@ -11,6 +11,7 @@ import UIKit
 class TheatreViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var ticketCostLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

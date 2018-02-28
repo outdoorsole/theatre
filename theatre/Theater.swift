@@ -10,6 +10,8 @@ import Foundation
 
 class Theater {
     var name: String?
+    var promoCode: String?
+    let freeCode = "PASS"
 }
 
 var theater = Theater()

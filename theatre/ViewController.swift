@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var promoTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +24,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         
         theater.name = textField.text!
+        theater.promoCode = promoTextField.text!
         
         return true
     }
     @IBAction func goButton(_ sender: UIButton) {
-        theater.name = nameTextField.text
+        theater.name = nameTextField.text!
+        theater.promoCode = promoTextField.text!
+        
+        print(theater.name!, theater.promoCode!)
         
         // the View Controller is calling the segue (self)
         performSegue(withIdentifier: "goSegue", sender: self)
