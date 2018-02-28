@@ -17,5 +17,6 @@ class TheatreViewController: UIViewController {
     }
     
     @IBAction func backButton(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
 }
