@@ -12,6 +12,7 @@
 		165474FE20465755003178C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165474FC20465755003178C5 /* Main.storyboard */; };
 		1654750020465755003178C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165474FF20465755003178C5 /* Assets.xcassets */; };
 		1654750320465755003178C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1654750120465755003178C5 /* LaunchScreen.storyboard */; };
+		1654750B204659E5003178C5 /* TheatreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1654750A204659E5003178C5 /* TheatreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		165474FF20465755003178C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1654750220465755003178C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1654750420465755003178C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654750A204659E5003178C5 /* TheatreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				165474F820465755003178C5 /* AppDelegate.swift */,
 				165474FA20465755003178C5 /* ViewController.swift */,
+				1654750A204659E5003178C5 /* TheatreViewController.swift */,
 				165474FC20465755003178C5 /* Main.storyboard */,
 				165474FF20465755003178C5 /* Assets.xcassets */,
 				1654750120465755003178C5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				165474FB20465755003178C5 /* ViewController.swift in Sources */,
 				165474F920465755003178C5 /* AppDelegate.swift in Sources */,
+				1654750B204659E5003178C5 /* TheatreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKKZ6JX7SH;
 				INFOPLIST_FILE = theatre/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maribelmontejano.theatre;
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKKZ6JX7SH;
 				INFOPLIST_FILE = theatre/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maribelmontejano.theatre;
