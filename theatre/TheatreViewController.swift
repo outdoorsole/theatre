@@ -13,6 +13,7 @@ class TheatreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("TheaterViewController viewDidLoad was called")
     }
     
     @IBAction func backButton(_ sender: UIButton) {

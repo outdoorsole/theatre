@@ -56,6 +56,7 @@
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backButton:" destination="QLE-6S-JWg" eventType="touchUpInside" id="vwK-1p-7CE"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="PPi-qy-lmN"/>
                                 </connections>
                             </button>
                         </subviews>
