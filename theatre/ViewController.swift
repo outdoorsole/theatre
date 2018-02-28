@@ -28,6 +28,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     @IBAction func goButton(_ sender: UIButton) {
         theater.name = nameTextField.text
+        
+        // the View Controller is calling the segue (self)
+        performSegue(withIdentifier: "goSegue", sender: self)
     }
     
 }

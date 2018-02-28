@@ -24,7 +24,6 @@
                                 <state key="normal" title="Go"/>
                                 <connections>
                                     <action selector="goButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cl-pu-5Ta"/>
-                                    <segue destination="QLE-6S-JWg" kind="presentation" id="VLG-kj-s9E"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z34-I1-t0p">
@@ -50,6 +49,7 @@
                     </view>
                     <connections>
                         <outlet property="nameTextField" destination="Z34-I1-t0p" id="35Q-1X-Xjy"/>
+                        <segue destination="QLE-6S-JWg" kind="presentation" identifier="goSegue" id="X8B-or-99h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
