@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TheatreViewController: UIViewController {
+class TheatreViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
